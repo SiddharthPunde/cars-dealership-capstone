@@ -10,13 +10,13 @@ curl -i -X GET http://127.0.0.1:8000/djangoapp/logout
 HTTP/1.1 200
 
 3. RESPONSE HEADERS:
-Date: Wed, 21 Oct 2026 16:07:24 GMT
-Server: WSGIServer/0.2 CPython/3.13.2
+Date: Sun, 22 Nov 2026 18:25:21 GMT
+Server: WSGIServer/0.2 CPython/3.13.13
 Content-Type: application/json
 Vary: Accept, Cookie, origin
 Allow: GET, POST, HEAD, OPTIONS
 X-Frame-Options: DENY
-Content-Length: 15
+Content-Length: 34
 X-Content-Type-Options: nosniff
 Referrer-Policy: same-origin
 Cross-Origin-Opener-Policy: same-origin
@@ -24,7 +24,8 @@ Set-Cookie: sessionid=[REDACTED_SECURE_SESSION_ID]; Path=/; HttpOnly; SameSite=L
 
 4. RESPONSE BODY:
 {
-  "userName": ""
+  "userName": "",
+  "status": "success"
 }
 
 5. NOTES & SETUP INSTRUCTIONS:

@@ -57,7 +57,7 @@ def add_browser_chrome(img_path, url, title="Cars Dealership Network"):
 def main():
     print("Launching Edge/Chromium to capture all capstone evidence screenshots...")
     with sync_playwright() as p:
-        browser = p.chromium.launch(channel="msedge", headless=True)
+        browser = p.chromium.launch(headless=True)
         context = browser.new_context(viewport={"width": 1280, "height": 900})
         page = context.new_page()
 
