@@ -2,13 +2,13 @@
 cars-dealership-capstone
 
 # Project name
-Car Dealership Capstone Application
+Best Cars Dealership – Full-Stack Capstone Application
 
 # Cars Dealership Full-Stack Capstone Web Application
 
 - **Repository name:** cars-dealership-capstone
-- **Project name:** Car Dealership Capstone Application
-- **Author:** Ajaya Nandiyawar
+- **Project name:** Best Cars Dealership – Full-Stack Capstone Application
+- **Author:** Siddharth Punde
 - **Course:** Full Stack Cloud Development Capstone Project
 
 ![CI/CD Pipeline](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-blue?logo=githubactions)
@@ -143,7 +143,7 @@ cars-dealership-capstone/
 ### 2. Clone and Setup Environment
 ```bash
 git clone <YOUR_REPOSITORY_URL>
-cd "Full Stack project"
+cd cars-dealership-capstone
 
 # Create Python virtual environment
 python -m venv .venv
